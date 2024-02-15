@@ -1,0 +1,11 @@
+/* Header Related Style */
+.header{
+        text-align: center;
+        margin: 50px 140px 120px 140px;
+        background-image: url('../resources/Banner\ Image.png');
+        background-color: #000000;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+       
+}
