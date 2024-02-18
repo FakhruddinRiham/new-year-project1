@@ -1,25 +1,303 @@
+
+
 /* Header Related Style */
 .header{
-        margin: 50px 140px 120px 140px;
-        background-image: url('../resources/Banner\ Image.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 1320px;
-        height: 600px;
-        border-radius: 16px;
-        background-size: cover;
-       
+    /* margin: 50px 140px 120px 140px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: auto;
+    border-radius: 16px;
+    background-size: cover;
+    background-attachment: fixed;
+   
 }
 
-.header-title{
-    font-size: 35px;
-    font-weight: 700px;
-    padding: 177px 344px;
-    text-align: center;
-    width: 632px;
-    height: 246px;
+.header-title
+{
     color: #ffffff;
-    background-image: linear-gradient(180deg, rgba(6, 2, 2, 0.418), rgba(25, 25, 3, 0.445));
+font-size: 20px;
+font-weight: 500px;
+padding: 170px 230px;
+text-align: center;
+background-image: linear-gradient(180deg, rgba(6, 2, 2, 0.418), rgba(25, 25, 3, 0.445)) 100%;
+}
 
+
+.holiday { 
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.holiday-text {
+    text-align: center;
+    line-height: 5px;
+    text-align: center;
+
+}
+
+.holiday h1 {
+    color: crimson;
+    font-family: inter;
+    font-size: 35px;
+    font-weight: 500px;
+
+}
+.holiday h6 {
+    color: crimson;
+}
+ img {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.event span {
+    color: crimson;
+}
+.event {
+    background-size: contain;
+    background-image:linear-gradient(rgb(253, 163, 163),white);
+    text-align: center;
+   margin-top: 50px;
+   line-height: 10px;
+   padding: 50px;
+
+}
+button {
+    background-color: crimson;
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.best-offer{
+    margin-top: 150px;
+    margin-bottom: 150px; ;
+    display: flex;
+    width:auto;
+}
+.coming-soon{
+    margin-top: 90px;
+    margin-right: 20px;
+   line-height: 10px;
+}
+.coming-soon h5 {
+    color: red;
+    font-size: 15px;
+}
+.coming-soon h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.three-people {
+    position: centre;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gift{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.gift h3 {
+    color: red;
+    font-size: 20px;
+}
+.gift img {
+    margin-left:150px;
+}
+.midnight-party{
+    display: flex;
+    background-image: url(Vectorrr.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.image-area {
+    margin-left: 100px;
+}
+.text-area {
+margin-left: 20px;
+margin-top: 150px;
+
+}
+.text-area h1 {
+    font-family: merriweather;
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 5px;
+    letter-spacing: 3px;
+}
+.text-area small {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+
+}
+.btn-area {
+    background-color:transparent;
+    font-size: 20px;
+    color: white;
+}
+
+.holidays-sale {
+    text-align: center;
+    line-height: 10px;
+}
+
+.holiday-sale-text 
+{
+    line-height: 10px;
+}
+.holiday-sale-text h4 {
+color: red;
+font-size: 15px;
+}
+
+.holiday-sale-text span {
+    color: red;
+
+}
+.holiday-sale-text h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.holiday-sale-text small {
+    line-height: 15px;
+}
+
+.holidays-sale-image{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+.girl-and-gift {
+display: flex;
+margin-top: 50px;
+}
+.rectangle-image {
+    margin-right: 30px;
+}
+.newsletter {
+margin-top: 10px;
+background-color: rgba(247, 189, 189, 0.814);
+text-align: center;
+line-height: 10px;
+padding: 50px;
+}
+.newsletter-small {
+    line-height: 20px;
+}
+input [type=text] {
+    padding: 20px;
+}
+input [type=submit] {
+    background-color: red;
+}
+.portfolio-text {
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.portfolio-text-style {
+    margin-left: 10px;
+    line-height: 1px;
+    margin-top: 70px;
+} 
+.portfolio-text-style h5 {
+color: red;
+}
+
+.portfolio-text-style small {
+    line-height: 15px;
+}
+  * {
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column-image{
+    width: 100%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .social-icon-row
+ {
+  display: flex;
+}
+
+.social-icon {
+    flex: 33.33%;
+  padding: 5px;
+}
+
+.footer-text {
+    display: flex;
+    margin-left: 80px;
+    padding-bottom: 50px; 
     
 }
+
+/* .footer text .subscribe {
+    margin-right: 500px;
+
+} */
+.footer-address .contact {
+    margin-right: 500px;
+    margin-left: 80px;
+}
+
+
+
+ .footer-address {
+  padding-top: 50px;
+  margin-left: 80px;
+  display: flex;
+}
+
+
+.contact-website {
+    margin-left: 800px;
+    
+
+}
+footer h6 {
+    color: beige;
+}
+
+.subscribe {
+    margin-right: 800px;
+}
+footer {
+  margin-top: 70px;
+  background-color: #070211;
+}
+
+
